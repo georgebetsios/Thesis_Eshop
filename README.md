@@ -4,6 +4,8 @@
 
 This is a full-stack eCommerce web application developed as part of a final-year university project. The application allows users to register, log in, browse product categories, manage their shopping cart, and place orders. Although payment integration is not implemented, users receive a PDF receipt via email after completing a purchase.
 
+---
+
 ## 🛠️ Technologies Used
 
 - **Frontend:** HTML, CSS, JavaScript
@@ -11,6 +13,8 @@ This is a full-stack eCommerce web application developed as part of a final-year
 - **Database:** MongoDB (with MongoDB Compass for local management)
 - **File Handling:** Excel (for dynamic product loading)
 - **PDF Generation & Email:** PDFKit / Nodemailer (or similar)
+
+---
 
 ## 🚀 Features
 
@@ -24,6 +28,32 @@ This is a full-stack eCommerce web application developed as part of a final-year
 - Order form submission
 - Email confirmation with downloadable PDF receipt (invoice)
 - Clean and responsive UI
+
+---
+
+## 📸 Screenshots
+
+### 🏠 Home Page  
+![Home](screenshots/homepage.png)
+
+### 📱 Phones Page  
+![Products](screenshots/phonespage.png)
+
+### 🛒 Cart & Checkout  
+![Cart](screenshots/cart.png)
+
+View more screenshots in the [`screenshots/`](./screenshots) folder.
+
+---
+
+## 📩 Email + PDF Workflow
+
+- Upon order submission:
+  - A PDF invoice is generated using **PDFKit**
+  - The invoice is attached to an email using **Nodemailer**
+  - The user receives a confirmation email with the invoice
+
+---
 
 ## 📝 Developer's Note
 
